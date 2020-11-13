@@ -1,8 +1,8 @@
-![Gophish logo](https://www.drupal.org/files/project-images/gophish_logo.png)
-
 # Production Gophish
 
 > Production ready docker-compose implementation of the Gophish phishing framework.
+
+![Gophish logo](https://www.drupal.org/files/project-images/gophish_logo.png)
 
 ## Installation
 
