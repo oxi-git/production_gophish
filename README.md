@@ -26,7 +26,6 @@ npm test
 ```
 
 <!-- ## Release History
-
 * 0.2.1
     * CHANGE: Update docs (module code remains unchanged)
 * 0.2.0
