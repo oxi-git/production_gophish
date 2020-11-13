@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:focal
 
 LABEL maintainer https://github.com/Oxigen96
 
