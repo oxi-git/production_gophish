@@ -1,4 +1,7 @@
+![Gophish logo](https://www.drupal.org/files/project-images/gophish_logo.png)
+
 # Production Gophish
+
 
 > Production ready docker-compose implementation of the Gophish phishing framework.
 
@@ -39,7 +42,7 @@ npm test
 * 0.0.1
     * Work in progress -->
 
-## Contributing 🍴
+## Contributing
 
 1. Fork it (<https://github.com/yourname/yourproject/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
@@ -57,3 +60,4 @@ npm test
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [wiki]: https://github.com/yourname/yourproject/wiki
+[logo]: https://www.drupal.org/files/project-images/gophish_logo.png
