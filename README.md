@@ -4,17 +4,28 @@
 
 ![Production Gophish logo](logo.png)
 
-## Installation
-
-Docker:
+## Installation (Requires **Docker** and **docker-compose**)
 
 ```sh
+git clone Oxigen96/production_gophish / gh repo clone Oxigen96/production_gophish
+
+cd production_gophish
+
 docker-compose up -d
 ```
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+```text
+1. Open your browser
+
+2. Go to https://localhost:3333/
+
+3. Log in with the one time only password given in the logs 
+        -> $ docker-compose logs gophish
+
+4. Start phishing 🎣
+```
 
 <!-- _For more examples and usage, please refer to the [Wiki][wiki]._ -->
 
