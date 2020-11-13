@@ -14,7 +14,7 @@ git clone Oxigen96/production_gophish / gh repo clone Oxigen96/production_gophis
 cd production_gophish
 ```
 
-Config NGINX: 🔧
+Configure NGINX: 🔧
 
 ```text
 Change server_name directive with your domain/s
