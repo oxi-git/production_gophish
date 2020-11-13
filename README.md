@@ -14,12 +14,11 @@ git clone Oxigen96/production_gophish / gh repo clone Oxigen96/production_gophis
 cd production_gophish
 ```
 
-Config: 🔧
-
-NGINX:
-
-- change **server_name** directive with your domain/s
-- replace self-signed certificate inside nginx/ with your **CA signed** certificate (keep names the same)
+Config NGINX: 🔧
+```text
+    - change **server_name** directive with your domain/s
+    - replace self-signed certificate inside nginx/ with your **CA signed** certificate (keep names the same)
+```
 
 Dockerize: 🐳
 
