@@ -7,7 +7,7 @@
 ## Installation (Requires **Docker** and **docker-compose**)
 
 ```sh
-git clone Oxigen96/production_gophish / gh repo clone Oxigen96/production_gophish
+<span style="color:#005cc5">git</span> clone Oxigen96/production_gophish / gh repo clone Oxigen96/production_gophish
 
 cd production_gophish
 
