@@ -67,7 +67,7 @@ docker-compose up -d
 
 ## Thanks to
 
-- [Andrew Long for having this project based upon his article](https://medium.com/swlh/production-ready-gophish-with-nginx-mysql-and-docker-68db412d6cdd)
+- [Andrew Long: project based upon his article](https://medium.com/swlh/production-ready-gophish-with-nginx-mysql-and-docker-68db412d6cdd)
 
 ## License
 
