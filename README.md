@@ -43,20 +43,18 @@ npm test
 
 ## Contributing
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
+1. Fork it (<https://github.com/Oxigen96/production_gophish/fork>)
+2. Create your feature branch (`git checkout -b feature`)
+3. Commit your changes (`git commit -am 'Add some features'`)
+4. Push to the branch (`git push origin feature`)
 5. Create a new Pull Request 😄
 
 ## Thanks to
 
 - [Andrew Long for having this project based upon his article](https://medium.com/swlh/production-ready-gophish-with-nginx-mysql-and-docker-68db412d6cdd)
-- [Dan Bader for this awsome README.md template](https://github.com/dbader/readme-template)
 
 ## License
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[wiki]: https://github.com/yourname/yourproject/wiki
-[logo]: https://www.drupal.org/files/project-images/gophish_logo.png
+[wiki]: https://github.com/Oxigen96/production_gophish/wiki
