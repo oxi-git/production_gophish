@@ -43,15 +43,6 @@ docker-compose up -d
 
 <!-- _For more examples and usage, please refer to the [Wiki][wiki]._ -->
 
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
 <!-- ## Release History
 * 0.2.1
     * CHANGE: Update docs (module code remains unchanged)
