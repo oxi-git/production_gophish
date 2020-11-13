@@ -1,0 +1,51 @@
+version: '3'
+
+services:
+    db:
+        container_name: mysql
+
+        image: mysql:latest
+
+        command: mysqld --sql_mode=""
+
+        restart: always
+        
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: gophish
+            MYSQL_USER: gophish
+            MYSQL_PASSWORD: gophish
+
+        volumes:
+            - db:/var/lib/mysql
+
+    gophish:
+        container_name: gophish
+
+        build: gophish/
+
+        depends_on: [db]
+
+        restart: always
+
+    nginx:
+        container_name: nginx
+
+        image: nginx
+
+        ports: 
+            - 80:80
+            - 443:443
+            - 3333:3333
+
+        depends_on: [gophish]
+
+        restart: always
+
+        volumes:
+            - ./nginx/reverse_proxy.conf:/etc/nginx/conf.d/default.conf
+            - ./nginx/cert.crt:/etc/ssl/cert.crt
+            - ./nginx/cert.key:/etc/ssl/cert.key
+    
+volumes:
+    db: {}
