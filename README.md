@@ -38,7 +38,7 @@ docker-compose up -d
 3. Log in with the one time only password given in the logs
         -> $ docker-compose logs gophish
 
-4. Start phishing! 🎣
+4. Go phishing! 🎣
 ```
 
 <!-- _For more examples and usage, please refer to the [Wiki][wiki]._ -->
