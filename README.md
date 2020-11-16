@@ -1,6 +1,6 @@
-![Production Gophish logo](logo.png)
-
 # Production Gophish
+
+![Production Gophish logo](logo.png)
 
 > Production ready docker-compose implementation of the Gophish phishing framework.
 
