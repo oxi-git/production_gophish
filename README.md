@@ -1,8 +1,8 @@
 # Production Gophish
 
-![Production Gophish logo](logo.png)
-
 > Production ready docker-compose implementation of the Gophish phishing framework.
+
+![Production Gophish logo](logo.png)
 
 ## Installation (Requires **Docker** and **docker-compose**)
 
